@@ -25,6 +25,10 @@ public class MathUtilLive {
         
         //MathUtil.getFactorial(-5); ném ngoại lệ
         
+        //Thêm code sau lần đầu tiên làm chuyên đấy code lên server: 5:35 pm 7/7/2021
+        System.out.println("Expected 1! = 1; actual: "+MathUtil.getFactorial(1));
+        System.out.println("Expected 3! = 6; actual: "+MathUtil.getFactorial(6));
+        
         //kĩ thuật kiểm thử, ước chừng giá trị của hàm trả về gì
         //expect value: 5! = 120
         //actual: chương trình chạy
